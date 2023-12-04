@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMS.Platform.API", "HMS.Platform.API\HMS.Platform.API.csproj", "{808E31BD-32F3-425E-A40B-D418BA40172F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HMS", "HMS", "{8125B171-6311-47FD-9407-1B7E556D9503}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hms_register", "hms_register", "{CAD71D4A-2F51-4754-A1EC-07D109EB3DF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMS.Register", "..\..\New folder\HMS\hms_register\HMS.Register\HMS.Register.csproj", "{33748D88-9DB9-4238-B042-3F6D502FBF54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMS.Register.Repositories", "..\..\New folder\HMS\hms_register\HMS.Register.Repositories\HMS.Register.Repositories.csproj", "{40E9638C-BBB8-4CB2-B8AC-7D265FB01D07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMS.Register.Services", "..\..\New folder\HMS\hms_register\HMS.Register.Services\HMS.Register.Services.csproj", "{1A377F93-C1A4-4FC6-8AB0-ACED7E00E66B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{808E31BD-32F3-425E-A40B-D418BA40172F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808E31BD-32F3-425E-A40B-D418BA40172F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808E31BD-32F3-425E-A40B-D418BA40172F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808E31BD-32F3-425E-A40B-D418BA40172F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33748D88-9DB9-4238-B042-3F6D502FBF54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33748D88-9DB9-4238-B042-3F6D502FBF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33748D88-9DB9-4238-B042-3F6D502FBF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33748D88-9DB9-4238-B042-3F6D502FBF54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E9638C-BBB8-4CB2-B8AC-7D265FB01D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E9638C-BBB8-4CB2-B8AC-7D265FB01D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E9638C-BBB8-4CB2-B8AC-7D265FB01D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E9638C-BBB8-4CB2-B8AC-7D265FB01D07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A377F93-C1A4-4FC6-8AB0-ACED7E00E66B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A377F93-C1A4-4FC6-8AB0-ACED7E00E66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A377F93-C1A4-4FC6-8AB0-ACED7E00E66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A377F93-C1A4-4FC6-8AB0-ACED7E00E66B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CAD71D4A-2F51-4754-A1EC-07D109EB3DF7} = {8125B171-6311-47FD-9407-1B7E556D9503}
+		{33748D88-9DB9-4238-B042-3F6D502FBF54} = {CAD71D4A-2F51-4754-A1EC-07D109EB3DF7}
+		{40E9638C-BBB8-4CB2-B8AC-7D265FB01D07} = {CAD71D4A-2F51-4754-A1EC-07D109EB3DF7}
+		{1A377F93-C1A4-4FC6-8AB0-ACED7E00E66B} = {CAD71D4A-2F51-4754-A1EC-07D109EB3DF7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9722E5EB-EFBE-4225-A4F1-CE2A36892AE7}
+	EndGlobalSection
+EndGlobal
