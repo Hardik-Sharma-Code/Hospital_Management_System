@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HMS", "HMS", "{8125B171-631
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hms_register", "hms_register", "{CAD71D4A-2F51-4754-A1EC-07D109EB3DF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Register.Api", "HMS.Register.Api\HMS.Register.Api.csproj", "{B02F7476-72EB-44E6-9CE9-882B08DC2651}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Register.Api", "HMS\hms_register\HMS.Register.Api\HMS.Register.Api.csproj", "{B02F7476-72EB-44E6-9CE9-882B08DC2651}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Register.Repositories", "HMS.Register.Repositories\HMS.Register.Repositories.csproj", "{5012DFE0-7A65-4D5D-9C29-005E09297066}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Register.Repositories", "HMS\hms_register\HMS.Register.Repositories\HMS.Register.Repositories.csproj", "{5012DFE0-7A65-4D5D-9C29-005E09297066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Register.Services", "HMS.Register.Services\HMS.Register.Services.csproj", "{E60374B5-86FA-4686-95F8-2D22292677A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Register.Services", "HMS\hms_register\HMS.Register.Services\HMS.Register.Services.csproj", "{E60374B5-86FA-4686-95F8-2D22292677A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
