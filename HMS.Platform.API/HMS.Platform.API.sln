@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HMS", "HMS", "{8125B171-631
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hms_register", "hms_register", "{CAD71D4A-2F51-4754-A1EC-07D109EB3DF7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMS.Register", "..\..\New folder\HMS\hms_register\HMS.Register\HMS.Register.csproj", "{33748D88-9DB9-4238-B042-3F6D502FBF54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Register.Api", "HMS.Register.Api\HMS.Register.Api.csproj", "{B02F7476-72EB-44E6-9CE9-882B08DC2651}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMS.Register.Repositories", "..\..\New folder\HMS\hms_register\HMS.Register.Repositories\HMS.Register.Repositories.csproj", "{40E9638C-BBB8-4CB2-B8AC-7D265FB01D07}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Register.Repositories", "HMS.Register.Repositories\HMS.Register.Repositories.csproj", "{5012DFE0-7A65-4D5D-9C29-005E09297066}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMS.Register.Services", "..\..\New folder\HMS\hms_register\HMS.Register.Services\HMS.Register.Services.csproj", "{1A377F93-C1A4-4FC6-8AB0-ACED7E00E66B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Register.Services", "HMS.Register.Services\HMS.Register.Services.csproj", "{E60374B5-86FA-4686-95F8-2D22292677A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,15 +37,33 @@ Global
 		{1A377F93-C1A4-4FC6-8AB0-ACED7E00E66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A377F93-C1A4-4FC6-8AB0-ACED7E00E66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A377F93-C1A4-4FC6-8AB0-ACED7E00E66B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02F7476-72EB-44E6-9CE9-882B08DC2651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02F7476-72EB-44E6-9CE9-882B08DC2651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02F7476-72EB-44E6-9CE9-882B08DC2651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02F7476-72EB-44E6-9CE9-882B08DC2651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5012DFE0-7A65-4D5D-9C29-005E09297066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5012DFE0-7A65-4D5D-9C29-005E09297066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5012DFE0-7A65-4D5D-9C29-005E09297066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5012DFE0-7A65-4D5D-9C29-005E09297066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E60374B5-86FA-4686-95F8-2D22292677A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E60374B5-86FA-4686-95F8-2D22292677A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E60374B5-86FA-4686-95F8-2D22292677A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E60374B5-86FA-4686-95F8-2D22292677A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CAD71D4A-2F51-4754-A1EC-07D109EB3DF7} = {8125B171-6311-47FD-9407-1B7E556D9503}
-		{33748D88-9DB9-4238-B042-3F6D502FBF54} = {CAD71D4A-2F51-4754-A1EC-07D109EB3DF7}
-		{40E9638C-BBB8-4CB2-B8AC-7D265FB01D07} = {CAD71D4A-2F51-4754-A1EC-07D109EB3DF7}
-		{1A377F93-C1A4-4FC6-8AB0-ACED7E00E66B} = {CAD71D4A-2F51-4754-A1EC-07D109EB3DF7}
+		{B02F7476-72EB-44E6-9CE9-882B08DC2651} = {CAD71D4A-2F51-4754-A1EC-07D109EB3DF7}
+		{5012DFE0-7A65-4D5D-9C29-005E09297066} = {CAD71D4A-2F51-4754-A1EC-07D109EB3DF7}
+		{E60374B5-86FA-4686-95F8-2D22292677A7} = {CAD71D4A-2F51-4754-A1EC-07D109EB3DF7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9722E5EB-EFBE-4225-A4F1-CE2A36892AE7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9722E5EB-EFBE-4225-A4F1-CE2A36892AE7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9722E5EB-EFBE-4225-A4F1-CE2A36892AE7}
